@@ -1,0 +1,63 @@
+.face{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+  width: 80vmin;
+  min-width: 200px;
+  height: 80vmin;
+  min-height: 200px;
+  margin: 20px auto;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+[data-face='asia']{
+  background-image: url('face-padding-azja.b6b42d49.png');
+}
+
+[data-face='celtic']{
+  background-image: url('face-padding-celtycka.add59ebc.png');
+}
+
+[data-face='nordic']{
+  background-image: url('face-padding-nordycka.9cf3328b.png');
+}
+
+[data-face='south']{
+  background-image: url('face-padding-poludniowa.f2c66be9.png');
+}
+
+[data-face='slavic']{
+  background-image: url('face-padding-slowianka.15180a91.png');
+}
+
+[data-face='snow']{
+  background-image: url('face-padding-sniezka.0b027e8b.png');
+}
+
+[data-face='europe-brown']{
+  background-image: url('face-padding-europa-braz.18ed120f.png');
+}
+
+[data-face='europe-green']{
+  background-image: url('face-padding-europa-zielen.70e20454.png');
+}
+
+
+
+@media (min-width: 1000px){
+  .face{
+    width: auto;
+    height: auto;
+    margin: 0;
+
+    background-repeat: no-repeat;
+  }
+}
+
+
+/*# sourceMappingURL=faces.a467c6de.css.map */
